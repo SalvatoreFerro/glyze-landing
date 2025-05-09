@@ -1,35 +1,39 @@
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
-  padding: 0;
-  background: #fff;
-  color: #111;
+  background: #0f172a;
+  color: #f8fafc;
 }
 section {
   padding: 4rem 2rem;
   text-align: center;
 }
 .hero {
-  background: linear-gradient(to right, #e0f2fe, #ede9fe);
+  background: linear-gradient(to right, #1e3a8a, #6d28d9);
 }
 .hero h1 {
-  font-size: 2.5rem;
+  font-size: 3rem;
+  font-weight: 800;
   margin-bottom: 1rem;
 }
 .hero p {
-  font-size: 1.2rem;
+  font-size: 1.25rem;
   margin-bottom: 2rem;
 }
 .hero button {
-  padding: 0.8rem 1.5rem;
-  background-color: #2563eb;
+  padding: 1rem 2rem;
+  background-color: #9333ea;
   color: white;
   border: none;
   border-radius: 9999px;
+  font-size: 1rem;
   cursor: pointer;
 }
+.how {
+  background-color: #1e293b;
+}
 .how h2, .ambassador h2, .contact h2 {
-  font-size: 2rem;
+  font-size: 2.25rem;
   margin-bottom: 2rem;
 }
 .steps {
@@ -39,21 +43,25 @@ section {
   gap: 2rem;
 }
 .steps div {
-  width: 250px;
-  background: #f3f4f6;
+  background: #334155;
   border-radius: 1rem;
-  padding: 1.5rem;
+  padding: 2rem;
+  width: 250px;
 }
 .ambassador {
-  background: #ede9fe;
+  background: linear-gradient(to right, #7e22ce, #4f46e5);
 }
 .ambassador button {
-  padding: 0.8rem 1.5rem;
-  background-color: #7c3aed;
-  color: white;
+  padding: 1rem 2rem;
+  background-color: #f8fafc;
+  color: #4c1d95;
   border: none;
   border-radius: 9999px;
+  font-size: 1rem;
   cursor: pointer;
+}
+.contact {
+  background: #0f172a;
 }
 .contact form {
   max-width: 500px;
@@ -63,15 +71,18 @@ section {
   gap: 1rem;
 }
 .contact input, .contact textarea {
-  padding: 0.8rem;
-  border: 1px solid #ccc;
+  padding: 1rem;
+  border: 1px solid #334155;
+  background: #1e293b;
   border-radius: 0.5rem;
+  color: white;
 }
 .contact button {
-  padding: 0.8rem 1.5rem;
-  background-color: #2563eb;
+  padding: 1rem;
+  background-color: #3b82f6;
   color: white;
   border: none;
   border-radius: 9999px;
+  font-size: 1rem;
   cursor: pointer;
 }

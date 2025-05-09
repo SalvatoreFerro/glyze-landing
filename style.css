@@ -1,6 +1,77 @@
 body {
-  margin: 0;
   font-family: 'Segoe UI', sans-serif;
-  background-color: #ffffff;
-  color: #111827;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #111;
+}
+section {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+.hero {
+  background: linear-gradient(to right, #e0f2fe, #ede9fe);
+}
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+.hero p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+.hero button {
+  padding: 0.8rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+.how h2, .ambassador h2, .contact h2 {
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+.steps div {
+  width: 250px;
+  background: #f3f4f6;
+  border-radius: 1rem;
+  padding: 1.5rem;
+}
+.ambassador {
+  background: #ede9fe;
+}
+.ambassador button {
+  padding: 0.8rem 1.5rem;
+  background-color: #7c3aed;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
+}
+.contact form {
+  max-width: 500px;
+  margin: 2rem auto 0;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+.contact input, .contact textarea {
+  padding: 0.8rem;
+  border: 1px solid #ccc;
+  border-radius: 0.5rem;
+}
+.contact button {
+  padding: 0.8rem 1.5rem;
+  background-color: #2563eb;
+  color: white;
+  border: none;
+  border-radius: 9999px;
+  cursor: pointer;
 }
